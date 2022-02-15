@@ -1,7 +1,46 @@
-/** CSS STYLE **/
+:root {
+  --white: #fff;
+  --semi-white: #d7ccc0;
+  --light: #f5f4f0;
+  --main: #fe8a02;
+  --main-dark: #42413c;
+  --dark: #2a2626;
+  --semi-dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
 
-.hello {
-  display: block;
+body {
+  font: 16px/1.6em 'Open Sans', sans-serif;
+  color: #2a2626;
+}
 
-  color: #fff;
+h1,
+h2,
+h3 {
+  font-family: 'Neucha', cursive;
+  line-height: 1.2em;
+} 
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
 }
