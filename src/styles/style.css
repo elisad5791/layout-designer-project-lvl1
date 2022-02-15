@@ -17,16 +17,16 @@ body {
 }
 
 body {
-  font: 16px/1.6em 'Open Sans', sans-serif;
+  font: 16px/1.6em "Open Sans", sans-serif;
   color: #2a2626;
 }
 
 h1,
 h2,
 h3 {
-  font-family: 'Neucha', cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
-} 
+}
 
 h1 {
   font-size: 72px;
