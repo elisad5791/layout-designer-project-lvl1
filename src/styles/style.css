@@ -10,6 +10,12 @@
   --blue: #1085c5;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font: 16px/1.6em 'Open Sans', sans-serif;
   color: #2a2626;
