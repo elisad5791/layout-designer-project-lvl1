@@ -25,13 +25,13 @@ h1,
 h2,
 h3 {
   font-family: Neucha, cursive;
+  font-weight: normal;
   line-height: 1.2em;
   margin: 0;
 }
 
 h1 {
   font-size: 72px;
-  font-weight: normal;
 }
 
 h2 {
@@ -50,7 +50,20 @@ header img {
 }
 
 header > div > div:nth-child(2) {
-  margin-top: 180px;
+  margin-top: 185px;
+}
+
+main > section:first-child h2 {
+  margin-bottom: 30px;
+}
+
+iframe {
+  margin-bottom: -200px;
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+footer {
+  background-color: var(--dark);
 }
 
 /* ------------------------------------------------ */
@@ -77,6 +90,10 @@ header > div > div:nth-child(2) {
 
 .txt > * {
   flex-basis: 50%;
+}
+
+.center {
+  text-align: center;
 }
 
 /* ---------------------------------------------- */
