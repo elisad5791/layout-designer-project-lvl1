@@ -21,6 +21,11 @@ body {
   color: #2a2626;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 h1,
 h2,
 h3 {
@@ -28,6 +33,7 @@ h3 {
   font-weight: normal;
   line-height: 1.2em;
   margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -53,6 +59,14 @@ header > div > div:nth-child(2) {
   margin-top: 185px;
 }
 
+.details {
+  display: inline-block;
+  padding: 12px 24px;
+  font-weight: bold;
+  color: var(--white);
+  background-color: var(--main);
+}
+
 main > section:first-child h2 {
   margin-bottom: 30px;
 }
@@ -64,6 +78,40 @@ iframe {
 
 footer {
   background-color: var(--dark);
+}
+
+#navigation {
+  background-color: var(--dark);
+  padding-top: 100px;
+}
+
+#navigation > .wrapper > div {
+  display: flex;
+  column-gap: 30px;
+}
+
+#navigation > .wrapper > div:first-child {
+  margin-bottom: 20px;
+}
+
+#navigation h2 {
+  font-size: 52px;
+  color: var(--white);
+  flex: 1 1 30%;
+}
+
+#navigation a {
+  display: block;
+  flex: 1 1 30%;
+  padding: 24px;
+  background-color: var(--white);
+}
+
+.number {
+  font-size: 64px;
+  font-family: Neucha, cursive;
+  line-height: 1;
+  margin-bottom: 40px;
 }
 
 /* ------------------------------------------------ */
@@ -114,13 +162,4 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
-}
-
-.details {
-  display: inline-block;
-  padding: 12px 24px;
-  font-weight: bold;
-  color: var(--white);
-  background-color: var(--main);
-  text-decoration: none;
 }
