@@ -26,10 +26,12 @@ h2,
 h3 {
   font-family: Neucha, cursive;
   line-height: 1.2em;
+  margin: 0;
 }
 
 h1 {
   font-size: 72px;
+  font-weight: normal;
 }
 
 h2 {
@@ -40,6 +42,19 @@ h3 {
   font-size: 34px;
 }
 
+header img {
+  position: absolute;
+  top: 55px;
+  right: -270px;
+  height: 525px;
+}
+
+header > div > div:nth-child(2) {
+  margin-top: 180px;
+}
+
+/* ------------------------------------------------ */
+
 .py-100 {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -49,4 +64,46 @@ h3 {
   width: 100%;
   max-width: 1110px;
   margin: 0 auto;
+}
+
+.relative {
+  position: relative;
+}
+
+.txt {
+  display: flex;
+  column-gap: 30px;
+}
+
+.txt > * {
+  flex-basis: 50%;
+}
+
+/* ---------------------------------------------- */
+
+.orange {
+  color: var(--main);
+}
+
+.back::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--semi-white);
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+}
+
+.details {
+  display: inline-block;
+  padding: 12px 24px;
+  font-weight: bold;
+  color: var(--white);
+  background-color: var(--main);
+  text-decoration: none;
 }
