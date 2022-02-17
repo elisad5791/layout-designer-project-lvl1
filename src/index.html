@@ -12,7 +12,7 @@
 </head>
 <body>
 <header class="back">
-  <div class="wrapper py-100 relative">
+  <div class="wrapper relative">
     <div>
       <h1><span class="orange">Когнитивные<br> искажения<br></span> в программировании</h1>
       <img src="images/main.png" alt="tota">
@@ -24,7 +24,7 @@
       <div>
         <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
         <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
-        <a href="#" class="details">ПОДРОБНЕЕ</a>
+        <a href="#navigation" class="details">ПОДРОБНЕЕ</a>
       </div> 
     </div>
   </div>    
@@ -32,7 +32,7 @@
 
 <main>
   <section class="center">
-    <div class="wrapper py-100">
+    <div class="wrapper">
       <h2>Что же это такое,<br> <span class="orange">когнитивные искажения?</span></h2>
       <p>Что такое когнитивные искажения. Petrovna Channel</p>
       <iframe class="video shadow" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen></iframe>
@@ -40,32 +40,32 @@
   </section>
 
   <section id="navigation">
-    <div class="wrapper py-100">
+    <div class="wrapper">
       <div>
         <h2><span class="orange">5 когнитивных искажений</span> <br>о существовании которых стоит помнить</h2>
-        <a href="#">
+        <a href="#ikea-effect">
           <div class="number">1</div>
           <h3 class="orange">Эффект ИКЕА</h3>
           <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
         </a>
-        <a href="#">
+        <a href="#premature-optimization">
           <div class="number">2</div>
           <h3 class="orange">Преждевременная оптимизация</h3>
           <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
         </a>
       </div>
       <div>
-        <a href="#">
+        <a href="#distortion-of-novelty">
           <div class="number">3</div>
           <h3 class="orange">Искажение новизны</h3>
           <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
         </a>
-        <a href="#">
+        <a href="#hyperbolic-depreciation">
           <div class="number">4</div>
           <h3 class="orange">Гиперболическое обесценивание</h3>
           <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
         </a>
-        <a href="#">
+        <a href="#errors-in-planning">
           <div class="number">5</div>
           <h3 class="orange">Ошибка планирования</h3>
           <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
@@ -75,7 +75,7 @@
   </section>
 
   <section id="ikea-effect" class="back">
-    <div class="wrapper py-100">
+    <div class="wrapper">
       <div class="distortion-top">
         <div>
           <img src="images/1.png" alt="ikea" class="shadow">
@@ -95,7 +95,7 @@
   </section>
 
   <section id="premature-optimization" class="back section-dark">
-    <div class="wrapper py-100">
+    <div class="wrapper">
       <div class="distortion-top">
         <div class="distortion-title">
           <p class="cognitive">Когнитивные искажения</p>
@@ -115,7 +115,7 @@
   </section>
 
   <section id="distortion-of-novelty" class="back">
-    <div class="wrapper py-100">
+    <div class="wrapper">
       <div class="distortion-top">
         <div>
           <img src="images/3.png" alt="ikea" class="shadow">
@@ -135,7 +135,7 @@
   </section>
 
   <section id="hyperbolic-depreciation" class="back section-dark">
-    <div class="wrapper py-100">
+    <div class="wrapper">
       <div class="distortion-top">
         <div class="distortion-title">
           <p class="cognitive">Когнитивные искажения</p>
@@ -155,7 +155,7 @@
   </section>
 
   <section id="errors-in-planning" class="back">
-    <div class="wrapper py-100">
+    <div class="wrapper">
       <div class="distortion-top">
         <div>
           <img src="images/5.png" alt="ikea" class="shadow">
@@ -174,7 +174,28 @@
       </div>
     </div>
   </section>
-
 </main>
+
+<footer>
+  <div class="wrapper">
+    <div class="subscription">
+      <h3>Хотите узнать больше?<br> Подпишитесь на обновления</h3>
+      <div class="subscription-form">
+        <p>Электронная почта</p>
+        <form>
+          <input type="email" name="email" id="email" placeholder="Ваша электронная почта">
+          <button type="submit"></button>
+        </form>
+        <p>Подписываясь, вы принимаете <a href="">правила сервиса</a></p>
+      </div>
+    </div>
+
+    <div class="contacts">
+      <p>&copy; 2022 Анастасия Бурнышева</p>
+      <p>По материалам статьи <a href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Yash Ranadive Cognitive Biases in Programming</a></p>
+      <p><a href="https://ru.hexlet.io/">Курсы программирования Hexlet</a></p>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
