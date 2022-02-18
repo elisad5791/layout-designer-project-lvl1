@@ -168,6 +168,8 @@ body {
 }
 
 .navigation-title {
+  margin-bottom: 0;
+
   color: var(--white);
   font-size: 52px;
 }
@@ -176,7 +178,7 @@ body {
   display: block;
   padding: 24px;
 
-  background-color: var(--white);
+  background-color: var(--light);
 
   transition: 1s;
 }
@@ -196,6 +198,8 @@ body {
 }
 
 .card-title {
+  margin-bottom: 16px;
+
   color: var(--main);
   font-weight: normal;
   font-size: 34px;
