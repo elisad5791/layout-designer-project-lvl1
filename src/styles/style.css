@@ -40,6 +40,16 @@ body {
   line-height: 1.6em;
 }
 
+h2 {
+  margin-bottom: 30px;
+
+  color: var(--main);
+  font-weight: normal;
+  font-size: 60px;
+  font-family: Neucha, cursive;
+  line-height: 1.2em;
+}
+
 .overflow {
   overflow: hidden;
 }
@@ -135,6 +145,7 @@ body {
 .section-title {
   margin-bottom: 30px;
 
+  color: var(--dark);
   font-weight: normal;
   font-size: 60px;
   font-family: Neucha, cursive;
