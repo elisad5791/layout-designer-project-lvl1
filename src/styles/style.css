@@ -65,6 +65,8 @@ body {
 }
 
 .container {
+  position: relative;
+
   width: 1110px;
   margin: 0 auto;
   padding-top: 100px;
@@ -85,7 +87,7 @@ body {
 .img-position {
   position: absolute;
   top: 55px;
-  right: -270px;
+  left: 296px;
 
   height: 525px;
 }
