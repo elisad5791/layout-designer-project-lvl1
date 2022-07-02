@@ -1,15 +1,14 @@
-# Сognitive distortions
+# Когнитивные искажения
 
-### Hexlet tests and linter status:
+### Статус тестов и линтера
+
 [![Actions Status](https://github.com/elisad5791/layout-designer-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/elisad5791/layout-designer-project-lvl1/actions)
 ![example workflow](https://github.com/elisad5791/layout-designer-project-lvl1/actions/workflows/htmlcss.yml/badge.svg)
 
-### Description
+### Учебный проект Хекслет
 
-Сognitive distortions is a landing page describing common cognitive biases in programming. These are the most common problems that many developers face at various points in their career.
+Лендинг, описывающий распространённые когнитивные искажения в программировании. Это самые распространённые проблемы, с которыми сталкиваются многие разработчики в самые различные периоды своей карьеры.
 
-This project was created during training at [Hexlet](https://ru.hexlet.io), a programming online school.
+### Лендинг
 
-### Watch
-
-Have a look at the cognitive distortions [here](https://elisad5791.surge.sh/)
+Познакомьтесь с основными когнитивными искажениями [здесь](https://elisad5791.surge.sh/)
